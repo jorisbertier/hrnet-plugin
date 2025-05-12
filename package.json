@@ -1,0 +1,32 @@
+{
+  "name": "hrnet-plugin3",
+  "private": false,
+  "version": "1.0.10",
+  "type": "module",
+  "main": "./dist/modal.umd.js",
+  "module": "./dist/modal.es.js",
+  "exports": {
+    ".": {
+      "style": "./dist/hrnet-plugin3.css",
+      "import": "./dist/modal.es.js",
+      "require": "./dist/modal.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite-plugin-css-injected-by-js": "^3.5.2"
+  }
+}
