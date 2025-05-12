@@ -28,5 +28,22 @@
   },
   "devDependencies": {
     "vite-plugin-css-injected-by-js": "^3.5.2"
-  }
+  },
+  "description": "A plugin modal for HRnet project that displays a modal window for user interactions.",
+  "keywords": [
+    "modal",
+    "react",
+    "plugin",
+    "hrnet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorisbertier/hrnet-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/jorisbertier/hrnet-plugin/issues"
+  },
+  "homepage": "https://github.com/jorisbertier/hrnet-plugin/blob/main/README.md",
+  "author": "Joris Bertier",
+  "license": "MIT"
 }
