@@ -1,6 +1,7 @@
 import React from 'react';
 import './Modal.css';
 
+//my modal
 const Modal = ({ onClose, text, isOpen }) => {
     if (!isOpen) return null;  
 
